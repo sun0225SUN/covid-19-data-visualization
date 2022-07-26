@@ -1,4 +1,10 @@
+<div align="center">
+<img width="450px" src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/01.jpg" />
+<img width="450px" src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/02.jpg" />
+</div>
+
 # 新冠疫情时空大数据可视化分析
+
 # 一、项目概述
 
 受新冠肺炎的影响，自2019年以来，我们的生活学习发生了巨大的变化，我们无时无刻不在关心着疫情的动向，以保障我们正常的工作学习。
