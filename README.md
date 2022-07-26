@@ -1,9 +1,10 @@
-<div align="center">
-<img width="450px" src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/01.jpg" />
-<img width="450px" src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/02.jpg" />
-</div>
 
 # 新冠疫情时空大数据可视化分析
+
+<div align="center">
+<img  src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/01.jpg" />
+<img  src="https://cdn.jsdelivr.net/gh/sun0225SUN/COVID-19-Data-Visualization/assets/02.jpg" />
+</div>
 
 # 一、项目概述
 
