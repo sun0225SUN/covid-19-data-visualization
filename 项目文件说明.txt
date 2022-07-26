@@ -1,0 +1,5 @@
+main.py 是项目的核心文件
+index.html 是最终成果
+results/* 是单独的图表文件
+assets/* 是项目资源文件，展示了清洗后的当日的数据。
+requirements.txt 是项目所需的Python依赖包

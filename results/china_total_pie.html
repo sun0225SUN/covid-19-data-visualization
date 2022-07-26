@@ -1,0 +1,170 @@
+<style>body{background-color:#181a1b;}</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="chart_02" class="chart-container" style="width:400px; height:400px;"></div>
+    <script>
+        var chart_chart_02 = echarts.init(
+            document.getElementById('chart_02'), 'light', {renderer: 'canvas'});
+        var option_chart_02 = {
+    "backgroundColor": "transparent",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u65b0\u589e\u786e\u8bca",
+                    "value": 25120
+                },
+                {
+                    "name": "\u65b0\u589e\u7591\u4f3c",
+                    "value": 0
+                },
+                {
+                    "name": "\u65b0\u589e\u6b7b\u4ea1",
+                    "value": 77
+                },
+                {
+                    "name": "\u65b0\u589e\u6cbb\u6108",
+                    "value": 234
+                }
+            ],
+            "radius": [
+                0,
+                50
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u786e     \u8bca  ",
+                    "value": 4839118
+                },
+                {
+                    "name": "\u7591     \u4f3c  ",
+                    "value": 0
+                },
+                {
+                    "name": "\u6b7b     \u4ea1  ",
+                    "value": 22844
+                },
+                {
+                    "name": "\u6cbb     \u6108  ",
+                    "value": 300729
+                }
+            ],
+            "radius": [
+                75,
+                100
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u65b0\u589e\u786e\u8bca",
+                "\u65b0\u589e\u7591\u4f3c",
+                "\u65b0\u589e\u6b7b\u4ea1",
+                "\u65b0\u589e\u6cbb\u6108",
+                "\u786e     \u8bca  ",
+                "\u7591     \u4f3c  ",
+                "\u6b7b     \u4ea1  ",
+                "\u6cbb     \u6108  "
+            ],
+            "selected": {},
+            "show": true,
+            "bottom": 0,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "textStyle": {
+                "color": "#52b1ff"
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5168\u56fd\u603b\u91cf",
+            "link": "./results/china_total_pie.html",
+            "target": "blank",
+            "left": "center",
+            "top": "5%",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#52b1ff"
+            }
+        }
+    ]
+};
+        chart_chart_02.setOption(option_chart_02);
+    </script>
+</body>
+</html>

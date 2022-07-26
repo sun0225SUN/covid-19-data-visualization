@@ -1,0 +1,501 @@
+<style>body{background-color:#181a1b;}</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="chart_07" class="chart-container" style="width:100%; height:750px;"></div>
+    <script>
+        var chart_chart_07 = echarts.init(
+            document.getElementById('chart_07'), 'dark', {renderer: 'canvas'});
+        var option_chart_07 = {
+    "backgroundColor": "transparent",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar3D",
+            "coordinateSystem": "geo3D",
+            "grid3DIndex": 0,
+            "geo3DIndex": 0,
+            "globeIndex": 0,
+            "barSize": 2,
+            "bevelSize": 0,
+            "bevelSmoothness": 2,
+            "minHeight": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(data){return data.name + ' ' + data.value[2];}
+            },
+            "emphasis": {},
+            "data": [
+                {
+                    "name": "\u9ed1\u9f99\u6c5f",
+                    "value": [
+                        127.9688,
+                        45.368,
+                        2990
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.4648,
+                        31.2891,
+                        63478
+                    ]
+                },
+                {
+                    "name": "\u5185\u8499\u53e4",
+                    "value": [
+                        110.3467,
+                        41.4899,
+                        2155
+                    ]
+                },
+                {
+                    "name": "\u5409\u6797",
+                    "value": [
+                        125.8154,
+                        44.2584,
+                        40293
+                    ]
+                },
+                {
+                    "name": "\u8fbd\u5b81",
+                    "value": [
+                        123.1238,
+                        42.1216,
+                        1730
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5317",
+                    "value": [
+                        114.4995,
+                        38.1006,
+                        2007
+                    ]
+                },
+                {
+                    "name": "\u5929\u6d25",
+                    "value": [
+                        117.4219,
+                        39.4189,
+                        2052
+                    ]
+                },
+                {
+                    "name": "\u5c71\u897f",
+                    "value": [
+                        112.3352,
+                        37.9413,
+                        427
+                    ]
+                },
+                {
+                    "name": "\u9655\u897f",
+                    "value": [
+                        109.1162,
+                        34.2004,
+                        3364
+                    ]
+                },
+                {
+                    "name": "\u7518\u8083",
+                    "value": [
+                        103.5901,
+                        36.3043,
+                        851
+                    ]
+                },
+                {
+                    "name": "\u5b81\u590f",
+                    "value": [
+                        106.3586,
+                        38.1775,
+                        122
+                    ]
+                },
+                {
+                    "name": "\u9752\u6d77",
+                    "value": [
+                        101.4038,
+                        36.8207,
+                        148
+                    ]
+                },
+                {
+                    "name": "\u65b0\u7586",
+                    "value": [
+                        87.9236,
+                        43.5883,
+                        1008
+                    ]
+                },
+                {
+                    "name": "\u897f\u85cf",
+                    "value": [
+                        91.11,
+                        29.97,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u56db\u5ddd",
+                    "value": [
+                        103.9526,
+                        30.7617,
+                        2426
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": [
+                        108.384366,
+                        30.439702,
+                        763
+                    ]
+                },
+                {
+                    "name": "\u5c71\u4e1c",
+                    "value": [
+                        117.1582,
+                        36.8701,
+                        2813
+                    ]
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": [
+                        113.4668,
+                        34.6234,
+                        3203
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": [
+                        118.8062,
+                        31.9208,
+                        2314
+                    ]
+                },
+                {
+                    "name": "\u5b89\u5fbd",
+                    "value": [
+                        117.29,
+                        32.0581,
+                        1470
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5317",
+                    "value": [
+                        114.3896,
+                        30.6628,
+                        68405
+                    ]
+                },
+                {
+                    "name": "\u6d59\u6c5f",
+                    "value": [
+                        119.5313,
+                        29.8773,
+                        3189
+                    ]
+                },
+                {
+                    "name": "\u798f\u5efa",
+                    "value": [
+                        119.4543,
+                        25.9222,
+                        3584
+                    ]
+                },
+                {
+                    "name": "\u6c5f\u897f",
+                    "value": [
+                        116.0046,
+                        28.6633,
+                        1415
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5357",
+                    "value": [
+                        113.0823,
+                        28.2568,
+                        1408
+                    ]
+                },
+                {
+                    "name": "\u8d35\u5dde",
+                    "value": [
+                        106.6992,
+                        26.7682,
+                        186
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u897f",
+                    "value": [
+                        108.479,
+                        23.1152,
+                        1717
+                    ]
+                },
+                {
+                    "name": "\u6d77\u5357",
+                    "value": [
+                        110.3893,
+                        19.8516,
+                        326
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u4e1c",
+                    "value": [
+                        113.28064,
+                        23.125177,
+                        7804
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.405289,
+                        39.904987,
+                        3715
+                    ]
+                },
+                {
+                    "name": "\u4e91\u5357",
+                    "value": [
+                        102.71225,
+                        25.040609,
+                        2192
+                    ]
+                },
+                {
+                    "name": "\u9999\u6e2f",
+                    "value": [
+                        114.16546,
+                        22.27534,
+                        345379
+                    ]
+                },
+                {
+                    "name": "\u6fb3\u95e8",
+                    "value": [
+                        113.54913,
+                        22.19875,
+                        727
+                    ]
+                },
+                {
+                    "name": "\u53f0\u6e7e",
+                    "value": [
+                        121.520076,
+                        25.030724,
+                        4240466
+                    ]
+                }
+            ],
+            "shading": "realistic",
+            "zlevel": -10,
+            "silent": false,
+            "animation": true,
+            "animationDurationUpdate": 100,
+            "animationEasingUpdate": "cubicOut"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "textStyle": {
+            "color": "#52b1ff",
+            "fontSize": "12"
+        },
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 99,
+                "label": "<99"
+            },
+            {
+                "min": 100,
+                "max": 999,
+                "label": "100-999"
+            },
+            {
+                "min": 1000,
+                "max": 9999,
+                "label": "1000-9999"
+            },
+            {
+                "min": 10000,
+                "max": 99999,
+                "label": "10000-99999"
+            },
+            {
+                "min": 100000,
+                "max": 999999,
+                "label": "100000-999999"
+            },
+            {
+                "min": 1000000,
+                "max": 9999999,
+                "label": "1000000-999999"
+            },
+            {
+                "min": 10000000,
+                "max": 99999999,
+                "label": "1000000-999999"
+            }
+        ]
+    },
+    "geo3D": {
+        "map": "china",
+        "boxWidth": 100,
+        "boxHeight": 10,
+        "regionHeight": 3,
+        "groundPlane": {
+            "show": false,
+            "color": "#aaa"
+        },
+        "instancing": false,
+        "itemStyle": {
+            "color": "rgb(5,101,123)",
+            "borderColor": "rgb(62,215,213)",
+            "borderWidth": 0.8,
+            "opacity": 1
+        },
+        "label": {
+            "show": false,
+            "formatter": function(data){return data.name +  + data.value[2];}
+        },
+        "emphasis": {
+            "label": {
+                "show": false,
+                "position": "top",
+                "color": "#fff",
+                "margin": 8,
+                "fontSize": 10,
+                "backgroundColor": "rgba(0,23,11,0)"
+            }
+        },
+        "light": {
+            "main": {
+                "color": "#fff",
+                "intensity": 1.2,
+                "shadow": false,
+                "shadowQuality": "high",
+                "alpha": 40,
+                "beta": 10
+            },
+            "ambient": {
+                "color": "#fff",
+                "intensity": 0.3
+            },
+            "ambientCubemap": {
+                "diffuseIntensity": 0.5,
+                "specularIntensity": 0.5
+            }
+        },
+        "temporalSuperSampling": {
+            "enable": "auto"
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "width": "auto",
+        "height": "auto"
+    },
+    "title": [
+        {
+            "text": "\u5168\u56fd\u75ab\u60c53D\u5206\u5e03\u56fe",
+            "link": "./results/china_3D_map.html",
+            "target": "blank",
+            "left": "center",
+            "top": "5%",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "color": "#52b1ff"
+            }
+        }
+    ]
+};
+        chart_chart_07.setOption(option_chart_07);
+            window.addEventListener('resize', function(){
+                chart_chart_07.resize();
+            })
+    </script>
+</body>
+</html>
